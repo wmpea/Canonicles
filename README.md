@@ -1,14 +1,10 @@
 # Canonicle
 
-**An onchain trinket holder.** A gizmo NFT whose parts and holdings are themselves onchain NFTs — collect them, equip them, swap them, show them off.
-
-> **Status: open concept.** This is an idea repository, not an active codebase. I'm open-sourcing the design in case someone more adventurous wants to pick up the mantle before I can. If you build it, hit me up — I'd love to be your first minter, or to brainstorm with you.
->
-> — William M. Peaster ([@wmpeaster](https://x.com/wmpeaster) / wmp.eth)
+**An onchain trinket holder.** A gizmo NFT whose parts and holdings are themselves onchain NFTs, e.g. collect them, equip them, swap them, show them off.
 
 ## The idea in one breath
 
-A free-to-mint "device" NFT (the **Canonicle**) paired with its own token-bound account (ERC-6551), so the device itself owns its parts: a soulbound **Feed Seed** that generates a unique scrolling ASCII banner, tradeable **Lightbulb** NFTs that set the device's skin/theme, and 16 display slots for **Tali** — limited-edition onchain pixel-art trinkets you can equip in any arrangement you like.
+A free-to-mint "device" NFT (the **Canonicle**) paired with its own token-bound account (ERC-6551), so the device itself owns its parts: a soulbound **Feed Seed** that generates a unique scrolling ASCII banner, tradeable **Lightbulb** NFTs that set the device's skin/theme, and 16 display slots for **Talis**, i.e. limited-edition onchain pixel-art trinkets you can equip in any arrangement you like.
 
 Think: a curatorial onchain Pokédex meets a pinbook, fully composable and tradeable 24/7.
 
@@ -25,10 +21,10 @@ See **[SPEC.md](./SPEC.md)** for the full design: architecture, bonus modules (t
 
 ## Why
 
-I helped brainstorm the Canonicon — a dynamic, soulbound governance NFT — at the NFT curation protocol JPG, and I've kept turning the concept over in the years since JPG wound down. Canonicle is where that thinking landed after two questions: what if the system were composable and standards-based rather than single-contract with mutable metadata? And what if the NFT were less a governance/reputation instrument and more an onchain art object / collectible toy?
+I helped brainstorm the Canonicon (a dynamic, soulbound governance NFT) at the NFT curation protocol JPG, and I've kept turning the concept over in the years since JPG wound down. Canonicle is where that thinking landed after two questions: what if the system were composable and standards-based rather than single-contract with mutable metadata? And what if the NFT were less a governance/reputation instrument and more an onchain art object / collectible toy?
 
-Original write-up: ["An NFT Experiment I'd Like to See"](https://x.com/wmpeaster) (July 2026).
+Original write-up: ["An NFT Experiment I'd Like to See"](https://x.com/wmpeaster/status/2076400765825126607) (July 2026).
 
 ## License
 
-Released under [CC0](./LICENSE) — no rights reserved. Take the idea and run.
+Released under [CC0](./LICENSE), no rights reserved. Feel free to take the idea and run with it.
